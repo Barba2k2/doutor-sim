@@ -1,9 +1,12 @@
+import { Button } from "antd";
 import Image from "next/image";
 
-export default function Home() {
+const Home = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="App">
+      <Button type="primary">Hello World</Button>
+    </div>
   );
-}
+};
+
+export default Home;
